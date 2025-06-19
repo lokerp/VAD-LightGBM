@@ -16,9 +16,9 @@
 
 ├── notebook.ipynb          # Анализ данных и обучение модели
 
-├── app.py                  # GUI для инференса
+├── app.py                  # GUI приложение для инференса
 
-├── models.pkl              # Обученная модель LightGBM
+├── model.pkl               # Обученная модель LightGBM
 
 └── README.md
 
@@ -36,7 +36,7 @@
 - ZRMSE (RMS / ZCR).
 
 ## Результаты модели
-F1 $= 0.81$.
+F1 по классу "речь" $=0.81$.
 
 ## Требования для запуска notebook.ipynb
 - Python с библиотеками из requirements.txt.
@@ -44,6 +44,7 @@ F1 $= 0.81$.
   - QUT-NOISE-TIMIT (https://github.com/qutsaivt/QUT-NOISE)
   - ESC-50 (https://github.com/karolpiczak/ESC-50)
   - FSDnoisy18k (https://www.eduardofonseca.net/FSDnoisy18k)
+
   Необходимо прописать пути к ним в notebook.ipynb.
 
 ## Требования для запуска app.py
